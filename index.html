@@ -11,7 +11,12 @@
 </head>
 <body>
 
-    <div id="app">{{ message }}</div>
+    <div id="app">
+        <h1>Lista Email:</h1>
+        <ul v-if="randomMail.length == 10">
+            <li v-for="mail in randomMail">{{ mail }}</li>
+        </ul>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.4/axios.min.js" integrity="sha512-LUKzDoJKOLqnxGWWIBM4lzRBlxcva2ZTztO8bTcWPmDSpkErWx0bSP4pdsjNH8kiHAUPaT06UXcb+vOEZH+HpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

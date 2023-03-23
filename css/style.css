@@ -3,3 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: cadetblue;
+    font-family: sans-serif;
+}
+
+#app{
+    background-color: white;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    margin: 20px;
+}
+li{
+    color: rgb(92, 50, 131);
+    font-weight: bold;
+    padding: 10px;
+}
+
